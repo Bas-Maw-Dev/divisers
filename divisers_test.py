@@ -7,10 +7,10 @@ def test_correct_when_one():
     assert diviser(1) == 1
 
 def test_correct_when_two():
-    assert diviser(2) == 2
+    assert diviser(2) == 2  # 2, 1
 
 def test_correct_when_three():
-    assert diviser(3) == 2
+    assert diviser(3) == 2  # 3, 1
     
 def test_correct_when_four():
-    assert diviser(4) == 3
+    assert diviser(4) == 3  # 4, 2, 1
