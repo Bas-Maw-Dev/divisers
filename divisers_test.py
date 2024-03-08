@@ -17,8 +17,6 @@ def test_correct_when_four():
 
 def test_correct_when_five():
     assert diviser(5) == 2 # 5, 1
-    
-'''
+
 def test_correct_when_six():
     assert diviser(6) == 4 # 6, 3, 2, 1 
-'''
