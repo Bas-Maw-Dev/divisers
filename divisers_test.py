@@ -36,7 +36,7 @@ def test_range_up_to_forty():
       
     for i in range(1, 41):
         number_return = 0
-        for j in range(1,10):
+        for j in range(1, i+1):
             if i % j == 0:
                 number_return += 1
         assert diviser(i) == number_return
