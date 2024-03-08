@@ -1,6 +1,6 @@
 def diviser(n):
     number_of_divisers = 0
-    for i in range(1, 6):
+    for i in range(1, 7):
         if n % i == 0:
             number_of_divisers += 1
     return number_of_divisers
