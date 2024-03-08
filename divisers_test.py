@@ -1,3 +1,2 @@
-def test_answer():
-    pass
-    
+def test_returns_positive_integer():
+    assert diviser(1) == 1

@@ -1,4 +1,5 @@
 # Divisers with TDD in Python
+Taken and adapted from Codewars
 
 ## Task
 Count the number of divisors of a positive integer n.
